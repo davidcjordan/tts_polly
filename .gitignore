@@ -1,0 +1,9 @@
+archive/
+
+/.vscode
+venv/
+
+*.pyc
+__pycache__/
+
+boomer_wav_files.csv
