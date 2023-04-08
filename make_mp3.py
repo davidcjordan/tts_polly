@@ -12,11 +12,22 @@ from tempfile import gettempdir
 session = Session(profile_name="default")
 polly = session.client("polly")
 
+# phrases_file = "test_wav_files.csv"
+# output_dir = "/home/pi/audiofiles/test/"
+phrases_file = "boomer_wav_files.csv"
+output_dir = "/home/pi/audiofiles/mp3/"
+
+# ssml_leading_tags= '<speak><amazon:domain name="news"><prosody rate="slow">'
+# ssml_trailing_tags= '</prosody></amazon:domain></speak>'
+ssml_leading_tags= '<speak><prosody rate="x-slow">'
+ssml_trailing_tags= '</prosody></speak>'
+selected_voice= "Stephen" #other choices: Matthew, Joanna
+
 def make_mp3_file(filename, words):
     try:
         response = polly.synthesize_speech(Text=words, OutputFormat="mp3", 
                                             SampleRate="22050", Engine="neural",
-                                            VoiceId="Stephen")
+                                            VoiceId=selected_voice, TextType="ssml")
     except (BotoCoreError, ClientError) as error:
         # The service returned an error, exit gracefully
         print(error)
@@ -29,7 +40,7 @@ def make_mp3_file(filename, words):
         # ensure the close method of the stream object will be called automatically
         # at the end of the with statement's scope.
             with closing(response["AudioStream"]) as stream:
-                output = f"/home/pi/audiofiles/mp3/{filename[:-4]}.mp3"            
+                output = f"{output_dir}{filename[:-4]}.mp3"            
 
                 try:
                     # Open a file for writing the output as a binary stream
@@ -47,8 +58,9 @@ def make_mp3_file(filename, words):
 
 if __name__ == "__main__":
     import csv
-    with open('boomer_wav_files.csv') as csvfile:
+    with open(phrases_file) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             # print(row['file name'], row['words'])
-            make_mp3_file(filename=row['file name'], words=row['words'])
+            ssml= f'{ssml_leading_tags}{row["words"]}{ssml_trailing_tags}'
+            make_mp3_file(filename=row['file name'], words=ssml)
