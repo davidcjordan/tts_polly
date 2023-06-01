@@ -1,10 +1,13 @@
-"""Getting Started Example for Python 2.7+/3.3+"""
+"""
+This program reads a csv file that has columns: number,file name,words
+
+For each row, it sends the 'words' text to Polly, gets a MP3 back, and names the MP3 file as per the file name column.
+
+"""
 from boto3 import Session
 from botocore.exceptions import BotoCoreError, ClientError
 from contextlib import closing
-import os
 import sys
-import subprocess
 from tempfile import gettempdir
 
 # Create a client using the credentials and region defined in the [adminuser]
@@ -12,13 +15,15 @@ from tempfile import gettempdir
 session = Session(profile_name="default")
 polly = session.client("polly")
 
-# phrases_file = "test_wav_files.csv"
-# output_dir = "/home/pi/audiofiles/test/"
 phrases_file = "boomer_wav_files.csv"
-output_dir = "/home/pi/audiofiles/mp3/"
+output_dir = "/home/pi/repos/audio"
+# phrases_file = "demo_announcements.csv"
+# output_dir = "/home/pi/audiofiles/test/"
 
+# The following was for newscaster type voice - not used, slow was preferred:
 # ssml_leading_tags= '<speak><amazon:domain name="news"><prosody rate="slow">'
 # ssml_trailing_tags= '</prosody></amazon:domain></speak>'
+
 ssml_leading_tags= '<speak><prosody rate="slow">'
 ssml_trailing_tags= '</prosody></speak>'
 selected_voice= "Stephen" #other choices: Matthew, Joanna

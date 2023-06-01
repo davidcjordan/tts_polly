@@ -1,4 +1,8 @@
-"""Getting Started Example for Python 2.7+/3.3+"""
+"""Getting Started Example for Python 2.7+/3.3+
+
+This example is from the Amazon Polly webpages, and was copied here as it was used as a starting point for make_mp3.py
+
+"""
 from boto3 import Session
 from botocore.exceptions import BotoCoreError, ClientError
 from contextlib import closing
