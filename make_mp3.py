@@ -19,7 +19,7 @@ output_dir = "/home/pi/audiofiles/mp3/"
 
 # ssml_leading_tags= '<speak><amazon:domain name="news"><prosody rate="slow">'
 # ssml_trailing_tags= '</prosody></amazon:domain></speak>'
-ssml_leading_tags= '<speak><prosody rate="x-slow">'
+ssml_leading_tags= '<speak><prosody rate="slow">'
 ssml_trailing_tags= '</prosody></speak>'
 selected_voice= "Stephen" #other choices: Matthew, Joanna
 
