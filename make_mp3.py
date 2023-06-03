@@ -1,10 +1,16 @@
+#!/usr/bin/env python3
 """
 This program reads a csv file that has columns: number,file name,words
 
 For each row, it sends the 'words' text to Polly, gets a MP3 back, and names the MP3 file as per the file name column.
 
 """
-from boto3 import Session
+try:
+    from boto3 import Session
+except:
+   print("import boto3 failed: did you do?: source ./venv/bin/activate")
+   exit(1)
+
 from botocore.exceptions import BotoCoreError, ClientError
 from contextlib import closing
 import sys
@@ -17,7 +23,7 @@ polly = session.client("polly")
 
 phrases_file = "boomer_wav_files.csv"
 output_dir = "/home/pi/repos/audio"
-# phrases_file = "demo_announcements.csv"
+phrases_file = "demo_announcements.csv"
 # output_dir = "/home/pi/audiofiles/test/"
 
 # The following was for newscaster type voice - not used, slow was preferred:
