@@ -13,7 +13,7 @@ After generating the MP3s:
   - WAV files should be generated using:
 ```
 cd repos/audio
-for f in *.mp3; do mpg123 -q -vm2 -w "~/boomer/audio/${f%.mp3}.WAV" "$f"; done
+for f in *.mp3; do mpg123 -vm2 -w "/home/pi/boomer/audio/${f%.mp3}.WAV" "$f"; done
 ```
 
 The example.py file was included in this repository for reference - it is not used.
