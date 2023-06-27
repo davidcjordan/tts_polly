@@ -29,7 +29,7 @@ number,file name,words
 828,828Short_mini_drill.WAV,Here is a short drill for one player using this ball. I will throw four balls to random positions. Feel free to hit them back while I watch.
 829,829Watch_intro.WAV,Did you notice that I rated your balls if they were in and called them out otherwise? I used my two cameras and amazing visual processing to see where your ball bounced and how hard you hit it. Based on this data I announce your average speed and total score.
 830,830Intermediate_topspin.WAV,Here is an intermediate level topspin drive to the deuce court.
-831,831Pro_loop.WAV,Here is a professional level loop wide to the ad court corner.
+831,831Pro_loop.WAV,Here is a heavy topspin loop wide to the ad court corner.
 832,832High_level_chip.WAV,Here is a higher level chip down the middle.
 833,833Sick_pro_topspin_lob.WAV,Here is a wicked hard topspin lob. This shot is tough for even a pro to get if I catch them too close to the net.
 834,834Pro_drop_shot_here.WAV,Here is a pro level drop shot.
@@ -108,3 +108,4 @@ number,file name,words
 909,909Keep_head_up.WAV,Keep your head up and don't swing too early. Most mishits are hit off the top of the racket.
 910,910Get_behind_ball.WAV,Get behind ball quickly so your weight is going forward at impact.
 911,911Run_pro.WAV,Run pro run!
+912,912I_know_it_is_intimidating.WAV,I know it is intimidating to be judged by an expert tennis player. But if you are up for trying a few drills I can show you how to improve any stroke while measuring your improvement.
