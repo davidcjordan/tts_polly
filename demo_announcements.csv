@@ -1,6 +1,6 @@
 number,file name,words
 801,801Boomer_demo_intro.WAV,My name is Boomer and I’m the world’s first tennis playing robot.  I’m a top of the line tennis ball machine coupled with two wireless cameras a wireless speaker and a computer.  My two cameras watch every ball you hit and calculate bounce position and speed. I am an expert tennis player with extraordinary hitting skills capable of playing or drilling at any level from beginner to professional. This workout is a collection of my most popular drills. Feel free to hit the balls back and get a score. At the end of this workout I invite you to play a game against me. Enjoy!
-802,802Game_intro.WAV,When you play a game against me I rate each of your shots based on depth width and speed and then decide what type of shot to throw in reply. The type and difficulty of the shot I throw depends partly on my selected level and partly on the quality of your shot with some randomness built in to be unpredictable like a human opponent. I start each point at my selected level but adjust my level up or down based on the quality of your shots. If you are hitting shots deeper or wider or faster than me you are rewarded by me dropping my level slightly. Conversely if you are hitting weak shots I punish you by raising my level slightly. This is the equivalent of getting ahead or behind in the point against a human opponent. You can win a point with a single excellent shot like an ace or a hard hit return to the corner. You can also win a point by hitting two consecutive very good shots. You can also win a point by hitting three consecutive good shots. The last way to win a point is a prolonged grind where you consistently play above my selected level. You lose a point when you hit a shot out in the net or double fault. When the point is over I announce the score and then go back to my selected level. If we are in your service game I toss you balls to serve and tell you which court to serve too. If I’m serving I tell you which court I’m serving to. There is no way to game the system to beat me. To beat me you must play better than me by hitting the ball deeper or harder or closer to the lines. If you learn to beat me at a certain level that will allow you to beat a human opponent at that level. Since I can play at a professional level you are guaranteed to have a challenging match no matter how good you get. So far no one has beaten me at my highest level.
+802,802Game_intro.WAV,When you play a game against me I rate each of your shots based on depth width and speed and then decide what type of shot to return. The type and difficulty of the shot I throw depends partly on my selected level and partly on the quality of your shot with some randomness built in to emulate a human opponent. I start each point at my selected level but adjust my level up or down based on the quality of your shots. If you are hitting shots deeper or wider or faster than me you are rewarded by my level dropping slightly. Conversely if you hit a weak shot I punish you by raising my level slightly. You can win a point with a single excellent shot like an ace or a hard hit return to the corner. Another way to win a point is a prolonged grind where you consistently play above my selected level. You lose a point when you hit a ball out or double fault. When the point is over I announce the score and then go back to my selected level. If you are serving I toss you balls to serve and tell you which court to serve to. If I’m serving I tell you which court I’m serving to. There is no way to game the system to beat me. To beat me you must play better than me by hitting the ball deeper or harder or closer to the lines. If you learn to beat me at a certain level that will allow you to beat a human opponent at that level. Since I can play at a professional level you are guaranteed to have a challenging match no matter how good you get. So far no one has beaten me at my highest level.
 803,803Suicide_drill_intro.WAV,This is a six ball drill where you start at the baseline and then transition to the net after the third ball. Each ball has a target which is announced right after it is thrown. The target for the first two balls is deep cross court. The target for the third ball is deep line. The target for the fourth and fifth balls is to volley short cross court. The last ball is a lob and the target is an overhead anywhere in the singles court. I will announce your score at the end of the drill.
 804,804Mini_tennis_intro.WAV,This is a mini tennis drill used for beginners or warmup. Each ball can be volleyed or hit after the bounce. The balls alternate between forehand and backhand.
 805,805Easy_random_ground_intro.WAV,This is an easy version of my most popular groundstroke drill. The drill throws six balls to random positions in the court at a level below Boomer’s set level. The spin is also random forcing you to adjust to topspin and backspin. The target is the whole singles court but you get a higher score for hitting the ball harder deeper and wider without missing. The best way to improve your groundstrokes is to play each ball as if you were playing a game. That means hitting the best ball you can while limiting your errors. At the end I will announce your score and your average ball speed of the balls that landed in.
@@ -11,17 +11,17 @@ number,file name,words
 810,810Play_game_intro.WAV,Boomer will go back to the main menu once this workout is over. I invite you to play a game against me by pressing the game button on the touchscreen. I show a game option screen where you can set my level anywhere between two point zero and seven point zero. You can also press the game help button and I will explain how to play a game against me. Once you are ready to play please walk to the other side and press the feed button on your remote to start the game. Enjoy!
 811,811Mini_tennis_shot.WAV,This is a mini tennis shot down the middle suitable for warmup or total beginners.
 812,812Chip_intermediate_shot.WAV,This is an intermediate level slice suitable for a game or drill.
-813,813Topspin_pro_shot.WAV,This is a pro level topspin drive wide to the deuce court suitable for a game or pro level drilling.
+813,813Topspin_pro_shot.WAV,This is a pro level topspin drive wide to the deuce court suitable for a game or pro level drilling. Maybe I should go pro.
 814,814Passing_pro_shot.WAV,This is a pro level passing shot suitable for a game when the player comes to the net.
 815,815Lob_pro_shot.WAV,This is a pro level lob suitable for a game when the player comes to the net.
 816,816Drop_pro_shot.WAV,This is a pro level drop shot wide to the ad court.
 817,817Boomer_variety_intro.WAV,This drill shows a variety of the shots that I can throw for a game or drill.
 818,818Mini_true_shot.WAV,This is a true mini tennis ball where I must be placed on the service line instead of the baseline. Since I'm probably on the baseline this shot should bounce before the net. If I were placed on the service line this shot would be perfect for little kids or a total beginner.
-819,819Easy_random_volley.WAV,This is an easy version of my most popular volley drill. Your score will be announced at the end of the drill.
+819,819Random_volley.WAV,This is a short version of my most popular volley drill.
 820,820Hard_random_volley.WAV,This is a harder version of the random volley drill.
-821,821Easy_random_overhead.WAV,This is an easy version of a popular overhead drill.
+821,821Random_overhead.WAV,Here is a short version of an overhead drill.
 822,822Hard_random_overhead.WAV,This is a harder version of the random overhead drill.
-823,823Two_line_volley_intro.WAV,This drill feeds passing shots for two players to practice their volleys. One player starts just inside the service line on the deuce court and the second player starts just inside the service line on the ad court. The goal is to move forward diagonally to take the ball as early as possible and hit the volley deep to either corner.
+823,823Two_line_volley_intro.WAV,The next drill feeds passing shots for two players to practice volleys. Both players begin just inside the service line on the deuce and ad courts. The goal is to move forward diagonally to take the ball as early as possible and hit a volley deep to either corner. This drill is not scored.
 824,824Boomer_short_intro.WAV,My name is Boomer and I'm the world's most advanced tennis robot. Like most modern high end ball machines I can throw a ball to any position of the court with any desired speed and spin.
 825,825True_mini_tennis_shot.WAV,Here is a very soft shot suitable for little kids or total beginners. To clear the net I must be placed on the service line. Since I'm back on the baseline this ball will not clear the net.
 826,826Efficient_drill.WAV,Even though this shot is soft it can be thrown to different locations at a rate of one ball per second. This allows three players to efficiently drill at the same time while up to six players wait behind them for their turn. In one minute each kid has hit twenty balls. At the end of the drill I ask them to pick up twenty balls and put them back into my hopper before getting back in line. This lets the drill run continuously and frees up the tennis pro to teach from the student's side and occasionally jump into the drill to demonstrate proper form.
@@ -29,28 +29,28 @@ number,file name,words
 828,828Short_mini_drill.WAV,Here is a short drill for one player using this ball. I will throw four balls to random positions. Feel free to hit them back while I watch.
 829,829Watch_intro.WAV,Did you notice that I rated your balls if they were in and called them out otherwise? I used my two cameras and amazing visual processing to see where your ball bounced and how hard you hit it. Based on this data I announce your average speed and total score.
 830,830Intermediate_topspin.WAV,Here is an intermediate level topspin drive to the deuce court.
-831,831Pro_loop.WAV,Here is a professional loop wide to the ad court corner.
-832,832High_level_chip.WAV,Here is a high level chip down the middle.
-833,833Sick_pro_topspin_lob.WAV,Here is a wicked pro topspin lob. This shot is very difficult for even a pro to touch if I catch you too close to the net.
+831,831Pro_loop.WAV,Here is a professional level loop wide to the ad court corner.
+832,832High_level_chip.WAV,Here is a higher level chip down the middle.
+833,833Sick_pro_topspin_lob.WAV,Here is a wicked hard topspin lob. This shot is tough for even a pro to get if I catch them too close to the net.
 834,834Pro_drop_shot_here.WAV,Here is a pro level drop shot.
 835,835End_of_workout.WAV,End of workout.
 836,836True_mini_tennis_short.WAV,This is a very soft shot suitable for little kids or total beginners.
 837,837Does_not_clear_net.WAV,To clear the net I must be placed on the service line.
-838,838Easy_ground_short_intro.WAV,This is a shortened version of my most popular groundstroke drill.
-839,839Ground_intro_one.WAV,Play like you would play a game.
-840,840I_am_watching.WAV,I'm watching you.
-841,841You_get_score.WAV,You get a score based on how hard and how deep you hit each ball.
-842,842Aim_for_corner.WAV,Aim for the corners.
-843,843Hard_ground_short_intro.WAV,This is the same drill with my level set higher.
-844,844My_balls_faster.WAV,My balls will come faster and deeper.
-845,845Easy_net_intro.WAV,This is a shortened version of my net drill.
+838,838Easy_ground_short_intro.WAV,This is an short easy version of my most popular groundstroke drill.
+839,839Ground_intro_one.WAV,Return this one like you would play in a game.
+840,840I_am_watching.WAV,Yes I'm watching you.
+841,841You_get_score.WAV,At the end of the drill I'll give you a score based on how hard and how deep you hit each ball.
+842,842Aim_for_corner.WAV,Aim for the corners. Just like you would if I were a human opponent.
+843,843Hard_ground_short_intro.WAV,This is the same drill at a higher level.
+844,844My_balls_faster.WAV,My shots will be faster and deeper.
+845,845Net_intro.WAV,This is a short version of my net drill. Try to put each ball away.
 846,846Net_intro_one.WAV,I throw only lobs and passings shots.
-847,847Net_intro_two.WAV,Try to move back quickly for the lobs.
-848,848Net_intro_three.WAV,Move forward to take the volleys.
+847,847Net_intro_two.WAV,Stay low and move back quickly for the lobs.
+848,848Net_intro_three.WAV,Move forward to take the volleys as high as possible.
 849,849Suicide_intro_short.WAV,Here is my best transition drill.
 850,850Workout_one.WAV,My level can be set anywhere from two point zero to seven point zero.
 851,851Workout_two.WAV, In drill mode I stay at my selected level but in game mode I will change my level up or down based on how well you play.
-852,852Gonna_throw.WAV,I am going to throw a few balls at you so feel free to hit them back.
+852,852Gonna_throw.WAV,I am going to throw you a few examples. Feel free to hit them back.
 853,853Or_not.WAV,Or let them fly by because I am not watching yet.
 854,854Do_not_care.WAV,I don't care if you are right handed or left handed.
 855,855I_only_care.WAV,I only care about how good your deuce court groundstroke is.
@@ -78,11 +78,11 @@ number,file name,words
 877,877I_will_run_several_drills.WAV,I will run several of my best drills which can be used to improve any stroke.
 878,878I_have_eleven_levels.WAV,I have eleven levels from two point zero to seven point zero.
 879,879I_also_have_two_mini_tennis_levels.WAV, I also have two mini tennis levels suitable for total beginners.
-880,880The_rest_of_drills_will_be_at_level.WAV,The rest of the drills will be run at my selected level.
+880,880The_rest_of_drills_will_be_at_level.WAV,The rest of the drills will be run at the level currently selected.
 881,881Here_is_a_three_line_mini_drill.WAV,Here is an example of a drill throwing mini tennis balls to three lines simultaneously.
 882,882I_can_efficiently_throw.WAV,I can efficiently feed balls to three lines at the same time.
 883,883This_allows_the_pro.WAV,This allows the tennis pro to teach effectively from the student's side of the court.
-884,884It_also_allows_pro_to_join.WAV,The pro can also join in the drill to demonstrate proper form.
+884,884It_also_allows_pro_to_join.WAV,The pro can also easily join in the drill to demonstrate proper form.
 885,885This_drill_will_test_your_deuce_ground.WAV,This drill will rate your deuce court groundstroke. If you are right handed that means your forehand. If you are left handed that means your backhand.
 886,886This_drill_will_test_your_ad_ground.WAV,This drill will rate your ad court groundstroke.
 887,887This_drill_will_test_your_deuce_volley.WAV,This drill will rate your deuce court volley.
@@ -90,8 +90,21 @@ number,file name,words
 889,889This_drill_will_test_your_overhead.WAV,This drill will rate your overhead.
 890,890This_drill_will_rate_your_transition.WAV,This drill will rate your transition to net skills.
 891,891This_drill_will_test_your_footspeed.WAV,This drill will test your footspeed as well as your cardio and consistency.
-894,894Transition_drill_short_intro.WAV,This is a 6 ball drill where you approach on the third ball and finish at the net with two volleys and an overhead. I will announce the target for each ball.
+894,894Transition_drill_short_intro.WAV,This is a 6 ball transition drill where you approach on the third ball and finish at the net with two volleys and an overhead. I will give you a target for each ball as it is thrown.
 895,895I_can_ask_players_to_pickup_balls.WAV,I can ask players to pick up five balls before they get back in line.
 896,896This_drill_can_run_continuously.WAV,That way my hopper stays filled with balls so the drill can run continuously.
-897,897Very_efficient.WAV,This enable the students to get a lot of practice in a very short amount of time.
-
+897,897Very_efficient.WAV,This lets the students get a ton of practice in a short amount of time.
+898,898Boomer_short_intro_one.WAV,My name is Boomer and I'm the world's most advanced tennis robot.
+899,899Boomer_short_intro_two.WAV,Like most high end ball machines I can throw a ball to any position of the court with any desired speed and spin.
+900,900My_balls_wider_spin.WAV,My shots will also be wider with more random spin.
+901,901Punch_volley.WAV,Punch the volley deep.
+902,902Keep_wrist_stiff.WAV,Keep your wrist stiff thru the volley.
+903,903Keep_head.WAV,Keep your head steady at the level of the ball.
+904,904Watch_ball.WAV,Watch the ball into the racket.
+905,905Do_not_look_up.WAV,Do not look up until after contact.
+906,906Approach_deep_down_the_line.WAV,Approach deep down the line. Come to net.
+907,907Spin_random.WAV,The spin is also random.
+908,908Some_topspin.WAV,Some shots have topspin and some are flat or have backspin.
+909,909Keep_head_up.WAV,Keep your head up and don't swing too early. Most mishits are hit off the top of the racket.
+910,910Get_behind_ball.WAV,Get behind ball quickly so your weight is going forward at impact.
+911,911Run_pro.WAV,Run pro run!
