@@ -58,15 +58,21 @@ number,file name,utils,game,drill,used,words
 214,214EXIT.WAV,,,d,,exit drill
 234,234FORE.WAV,,,d,,forehand only
 248,248GNDS.WAV,,,d,,groundstrokes
+257,257GREA.WAV,,,d,,Great
 315,315KILL.WAV,,,d,,Kill!
 316,316KPDE.WAV,,,d,,Keep it deep.
 339,339LINE.WAV,,,d,,Line
+432,432NOTB,,,d,,Not bad
 457,457OVER.WAV,,,d,,overhead  
+480,480PERF.WAV,u,,,,Perfect
 483,483PLAY.WAV,,,d,,player one
 486,486PLAY.WAV,,,d,,player two  
 499,499POAC.WAV,,,d,,Poach
 539,539RUMB.WAV,,,d,,Let’s get ready to rumble!
 565,565SERD.WAV,,,d,,Serve deuce court out wide
+657,657TOOD.WAV,,,d,,Too deep
+659,659TOOS.WAV,,,d,,Too short
+691,691VGOO.WAV,,,d,,Very good
 696,696VOLL.WAV,,,d,,Volley
 698,698VSCR.WAV,,,d,,volley short cross
 730,730WAV1.WAV,,,d,,Please start inside the service line
