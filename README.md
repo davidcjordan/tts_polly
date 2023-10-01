@@ -1,6 +1,5 @@
 # tts-polly: using Amazon Polly to generate speech from text (text to speech)
 
-## Overview
 The Amazon Polly service requires an Amazon account with its associated ~/.aws/credentials file.
 
 Run ```make_mp3.py``` to read a csv file and generate an mp3 file for each row:
@@ -12,7 +11,8 @@ Run ```make_mp3.py``` to read a csv file and generate an mp3 file for each row:
     - utils: a 'u' indicates its a utility speech, 'n' indicates its a number which are used in score annoucements.
     - game,drill: a 'g' indicates used in game mode, a 'd' indicated used in drill mode
     - used: this column indicated whether the announcement was played in the current software. Ironically the used column is no longer used and can be deleted.
-- The generated mp3 file will be put into the ~/repos/audio directory, where this is also a github repository.
+- NOTE: before running make_mp3.py, then type ```source ./venv/bin/activate``` to activate the python virtual environment.
+- The generated mp3 files will be put into the ~/repos/audio directory, which is also a github repository.
 
 Currently make_mp3.py is hardcoded to read boomer_wav_files.csv; it can be editted to read a different CSV file instead.
 
@@ -26,7 +26,7 @@ for f in *.mp3; do mpg123 -vm2 -w "/home/pi/boomer/audio/${f%.mp3}.WAV" "$f"; do
 ```
 
 ## cloning the repository
-When cloning this repository in order to generate new mp3 files, a new virtual environment (venv) must be created and initialized:
+When cloning this repository in order to generate new mp3 files, a new virtual environment (venv) must be created and initialized as follows.  This is to install the AWS 'boto' python facility.
 ```
 cd tts-polly
 python3 -m virtualenv venv
@@ -36,4 +36,3 @@ pip3 install boto3
 ```
 
 The example.py file was included in this repository for reference - it is not used.
-
