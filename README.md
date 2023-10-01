@@ -24,6 +24,10 @@ After generating the MP3s:
 cd repos/audio
 for f in *.mp3; do mpg123 -vm2 -w "/home/pi/boomer/audio/${f%.mp3}.WAV" "$f"; done
 ```
+## Notes on AMZ Polly settings:
+- Stephen was selected as the best sounding voice - casual and clear.
+- the speech speed was set to slow to make it easier to understand.  very slow was too slow.
+- The output frequency of 22050 was selected in order to make 22050 WAV files.  This frequency was required to make the ALSA software on linux operate correctly.
 
 ## cloning the repository
 When cloning this repository in order to generate new mp3 files, a new virtual environment (venv) must be created and initialized as follows.  This is to install the AWS 'boto' python facility.
