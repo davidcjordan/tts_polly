@@ -22,9 +22,9 @@ session = Session(profile_name="default")
 polly = session.client("polly")
 
 phrases_file = "boomer_wav_files.csv"
+# phrases_file = "demo_announcements.csv"
+# phrases_file = "test_wav_files.csv"
 output_dir = "/home/pi/repos/audio/"
-phrases_file = "demo_announcements.csv"
-# phrases_file = "restore_announcements.csv"
 # output_dir = "/home/pi/audiofiles/test/"
 
 # The following was for newscaster type voice - not used, slow was preferred:
