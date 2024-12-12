@@ -1,49 +1,44 @@
-#!/usr/bin/env python3
 """
-This program reads a csv file that has columns: number,file name,words
-
-For each row, it sends the 'words' text to Polly, gets a MP3 back, and names the MP3 file as per the file name column.
-
+This function sends the 'words' text to Polly, gets a MP3 back, 
+and creates an MP3 file using filename.
+It returns a tuple: (True,None) or (False,string_about_err)
 """
-try:
-    from boto3 import Session
-except:
-   print("import boto3 failed: did you do?: source ./venv/bin/activate")
-   exit(1)
-
-from botocore.exceptions import BotoCoreError, ClientError
-from contextlib import closing
-import sys
-from tempfile import gettempdir
-
-# Create a client using the credentials and region defined in the [adminuser]
-# section of the AWS credentials file (~/.aws/credentials).
-session = Session(profile_name="default")
-polly = session.client("polly")
-
-phrases_file = "boomer_wav_files.csv"
-# phrases_file = "demo_announcements.csv"
-# phrases_file = "test_wav_files.csv"
-output_dir = "/home/pi/repos/audio/"
-# output_dir = "/home/pi/audiofiles/test/"
-
-# The following was for newscaster type voice - not used, slow was preferred:
-# ssml_leading_tags= '<speak><amazon:domain name="news"><prosody rate="slow">'
-# ssml_trailing_tags= '</prosody></amazon:domain></speak>'
-
-ssml_leading_tags= '<speak><prosody rate="slow">'
-ssml_trailing_tags= '</prosody></speak>'
-selected_voice= "Stephen" #other choices: Matthew, Joanna
 
 def make_mp3_file(filename, words):
+
     try:
-        response = polly.synthesize_speech(Text=words, OutputFormat="mp3", 
+        from boto3 import Session
+    except:
+        return (False, "import boto3 failed: did you do?: source ./venv/bin/activate")
+
+    from botocore.exceptions import BotoCoreError, ClientError
+    from contextlib import closing
+
+    # Create a client using the credentials and region defined in the [adminuser]
+    # section of the AWS credentials file (~/.aws/credentials).
+    session = Session(profile_name="default")
+    polly = session.client("polly")
+
+    output_dir = "/home/pi/repos/audio/"
+    # output_dir = "/home/pi/audiofiles/test/"
+
+    #refer to ssml tags: https://docs.aws.amazon.com/polly/latest/dg/prosody-tag.html
+
+    # The following was for newscaster type voice - not used, slow was preferred:
+    # ssml_leading_tags= '<speak><amazon:domain name="news"><prosody rate="slow">'
+    # ssml_trailing_tags= '</prosody></amazon:domain></speak>'
+
+    ssml_leading_tags= '<speak><prosody rate="slow">'
+    ssml_trailing_tags= '</prosody></speak>'
+    selected_voice= "Stephen" #other choices: Matthew, Joanna
+
+    ssml_string= ssml_leading_tags + words + ssml_trailing_tags
+    try:
+        response = polly.synthesize_speech(Text=ssml_string, OutputFormat="mp3", 
                                             SampleRate="22050", Engine="neural",
                                             VoiceId=selected_voice, TextType="ssml")
     except (BotoCoreError, ClientError) as error:
-        # The service returned an error, exit gracefully
-        print(error)
-        sys.exit(-1)
+        return (False, f'{filename} returned error: {error}')
 
     # Access the audio stream from the response
     if "AudioStream" in response:
@@ -52,27 +47,17 @@ def make_mp3_file(filename, words):
         # ensure the close method of the stream object will be called automatically
         # at the end of the with statement's scope.
             with closing(response["AudioStream"]) as stream:
-                output = f"{output_dir}{filename[:-4]}.mp3"            
-
+                output = f"{output_dir}{filename}.mp3"            
                 try:
                     # Open a file for writing the output as a binary stream
                     with open(output, "wb") as file:
                         file.write(stream.read())
                 except IOError as error:
-                    # Could not write to file, exit gracefully
+                    # Could not write to file
                     print(error)
-                    sys.exit(-1)
+                    return (False, f'writing {filename}.mp3 returned error: {error}')
 
     else:
-        # The response didn't contain audio data, exit gracefully
-        print("Could not stream audio")
-        sys.exit(-1)
+        return (False, f'{filename} did not return with audio data')
 
-if __name__ == "__main__":
-    import csv
-    with open(phrases_file) as csvfile:
-        reader = csv.DictReader(csvfile)
-        for row in reader:
-            # print(row['file name'], row['words'])
-            ssml= f'{ssml_leading_tags}{row["words"]}{ssml_trailing_tags}'
-            make_mp3_file(filename=row['file name'], words=ssml)
+    return (True, None)
