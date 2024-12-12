@@ -1,6 +1,7 @@
 """
 This function sends the 'words' text to Polly, gets a MP3 back, 
 and creates an MP3 file using filename.
+The MP3 file is put in the default output directory: repos/audio
 It returns a tuple: (True,None) or (False,string_about_err)
 """
 
@@ -20,7 +21,6 @@ def make_mp3_file(filename, words):
     polly = session.client("polly")
 
     output_dir = "/home/pi/repos/audio/"
-    # output_dir = "/home/pi/audiofiles/test/"
 
     #refer to ssml tags: https://docs.aws.amazon.com/polly/latest/dg/prosody-tag.html
 
