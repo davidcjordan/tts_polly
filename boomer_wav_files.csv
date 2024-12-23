@@ -1,126 +1,126 @@
-number,file name,utils,game,drill,used,words
-159,159CSTU.WAV,c,,,,carousel stuck
-279,279IHNO.WAV,c,,,,I have no balls!
-497,497PLSB.WAV,c,,,,please feed me some balls
-201,201EIGH.WAV,n,,,,eighteen
-202,202EIGH.WAV,n,,,,eighty
-205,205ELEV.WAV,n,,,,eleven
-225,225FIFT.WAV,n,,,,fifteen
-226,226FIFT.WAV,n,,,,fifty
-236,236FORT.WAV,n,,,,forty  
-237,237FOUR.WAV,n,,,,fourteen
-276,276HUND.WAV,n,,,,Hundred
-299,299J0.WAV,n,,,,zero
-300,300J1.WAV,n,,,,one
-301,301J2.WAV,n,,,,two
-302,302J3.WAV,n,,,,three
-303,303J4.WAV,n,,,,four  
-304,304J5.WAV,n,,,,five
-305,305J6.WAV,n,,,,six  
-306,306J7.WAV,n,,,,seven
-307,307J8.WAV,n,,,,eight 
-308,308J9.WAV,n,,,,nine
-420,420NINE.WAV,n,,,,nineteen
-421,421NINE.WAV,n,,,,ninety
-584,584SEVE.WAV,n,,,,seventeen
-585,585SEVE.WAV,n,,,,seventy
-596,596SIXT.WAV,n,,,,sixteen
-597,597SIXT.WAV,n,,,,sixty
-641,641TEN.WAV,n,,,,Ten
-643,643THIR.WAV,n,,,,thirteen
-644,644THIR.WAV,n,,,,thirty
-677,677TWEL.WAV,n,,,,twelve  
-678,678TWEN.WAV,n,,,,twenty
-282,282IN.WAV,u,g,,,In
-401,401MPH.WAV,u,g,,,miles per hour
-116,116BOOM.WAV,u,,,,Warning. Boomer is preparing to throw
-445,445OKAY.WAV,u,,,,okay
-454,454OUT.WAV,u,,,,out
-482,482PFEE.WAV,u,,,,Press feed button on remote to continue
-500,500POIN.WAV,u,,,,point
-526,526REPA.WAV,u,,,,Remote pause
-528,528RESU.WAV,u,,,,resume
-660,660TOOS.WAV,u,,,,Too slow
-668,668TOTA.WAV,u,,,,total score
-775,775atLevel.WAV,u,,,,
-213,213EXIT.WAV,x,,,,exit
-163,163CWHL.WAV,,,?,,calibrate wheel motors
-269,269HERE.WAV,,g,d,,Whoop! There it is!
-73,073APPL.WAV,,,d,,approach line
-74,074APPR.WAV,,,d,,approach
-77,077ATTA.WAV,,,d,,attack!
-92,092BACK.WAV,,,d,,backhand only
-95,095BASE.WAV,,,d,,please start at the baseline
-155,155CROS.WAV,,,d,,Cross
-158,158CRUS.WAV,,,d,,Crush!
-167,167DCRO.WAV,,,d,,Deep cross
-190,190DRVV.WAV,,,d,,drive volley
-214,214EXIT.WAV,,,d,,exit drill
-234,234FORE.WAV,,,d,,forehand only
-248,248GNDS.WAV,,,d,,groundstrokes
-257,257GREA.WAV,,,d,,Great
-315,315KILL.WAV,,,d,,Kill!
-316,316KPDE.WAV,,,d,,Keep it deep.
-339,339LINE.WAV,,,d,,Line
-432,432NOTB,,,d,,Not bad
-457,457OVER.WAV,,,d,,overhead  
-480,480PERF.WAV,u,,,,Perfect
-483,483PLAY.WAV,,,d,,player one
-486,486PLAY.WAV,,,d,,player two  
-499,499POAC.WAV,,,d,,Poach
-539,539RUMB.WAV,,,d,,Let’s get ready to rumble!
-565,565SERD.WAV,,,d,,Serve deuce court out wide
-657,657TOOD.WAV,,,d,,Too deep
-659,659TOOS.WAV,,,d,,Too short
-691,691VGOO.WAV,,,d,,Very good
-696,696VOLL.WAV,,,d,,Volley
-698,698VSCR.WAV,,,d,,volley short cross
-730,730WAV1.WAV,,,d,,Please start inside the service line
-773,773avgSpeed.WAV,,,d,,Average speed is
-59,059ACE.WAV,,g,,,Ace
-60,060ADBO.WAV,,g,,,Advantage Boomer
-111,111BOOM.WAV,,g,,,Boomer serving to the ad court
-114,114BOOM.WAV,,g,,,Boomer serving to the deuce court
-118,118BOOM.WAV,,g,,,"Boomer, unforced error"
-119,119BOOM.WAV,,g,,,Boomer wins!
-122,122BPOI.WAV,,g,,,boomer’s point
-125,125BSER.WAV,,g,,,Boomer’s serve
-169,169DEEP.WAV,,g,,,Deep  
-173,173DEUC.WAV,,g,,,deuce  
-174,174DFAU.WAV,,g,,,double fault
-189,189DRUM.WAV,,g,,,“drum roll”
-199,199EASI.WAV,,g,,,easier
-215,215EXIT.WAV,,g,,,exit game
-243,243GA.WAV,,g,,,Game
-244,244GAME.WAV,,g,,,boomer’s game
-245,245GAME.WAV,,g,,,your game
-251,251GOOD.WAV,,g,,,good
-264,264HARD.WAV,,g,,,harder
-268,268HERE.WAV,,g,,,Here are two balls to serve
-270,270HERE.WAV,,g,,,Here is one ball to serve
-418,418NGRI.WAV,,g,,,nice grind!
-560,560SECS.WAV,,g,,,Second serve
-570,570SERV.WAV,,g,,,Service
-576,576SETB.WAV,,g,,,Set to Boomer
-583,583SETY.WAV,,g,,,Your set
-606,606SPIN.WAV,,g,,,spinning for serve
-646,646THRS.WAV,,g,,,three shot winner
-648,648TIE.WAV,,g,,,twelve point tiebreaker
-653,653TOAD.WAV,,g,,,your serve to the ad court
-654,654TODE.WAV,,g,,,your serve to the deuce court
-680,680TWOS.WAV,,g,,,two shot winner
-742,742WEAK.WAV,,g,,,weak shot
-753,753WIDE.WAV,,g,,,wide
-758,758WNET.WAV,,g,,,net
-761,761WRON.WAV,,g,,,wrong court
-768,768YOUR.WAV,,g,,,Your ad.
-769,769YOUR.WAV,,g,,,you win
-770,770YPOI.WAV,,g,,,your point
-771,771YSER.WAV,,g,,,your serve
-774,774scoreIs.WAV,,g,,,score is 
-775,775savingLogs.WAV,u,,,,saving logs
-776,776atLevel.WAV,,g,,,at level
-777,777love.WAV,,g,,,love
-778,778all.WAV,,g,,,all
-779,779set.WAV,,g,,,set
-779,780softwareBug.WAV,u,,,,software bug
+number,file name,words,utils,game,drill,used
+159,159CSTU.WAV,carousel stuck,c,,,
+279,279IHNO.WAV,I have no balls!,c,,,
+497,497PLSB.WAV,please feed me some balls,c,,,
+201,201EIGH.WAV,eighteen,n,,,
+202,202EIGH.WAV,eighty,n,,,
+205,205ELEV.WAV,eleven,n,,,
+225,225FIFT.WAV,fifteen,n,,,
+226,226FIFT.WAV,fifty,n,,,
+236,236FORT.WAV,forty  ,n,,,
+237,237FOUR.WAV,fourteen,n,,,
+276,276HUND.WAV,Hundred,n,,,
+299,299J0.WAV,zero,n,,,
+300,300J1.WAV,one,n,,,
+301,301J2.WAV,two,n,,,
+302,302J3.WAV,three,n,,,
+303,303J4.WAV,four  ,n,,,
+304,304J5.WAV,five,n,,,
+305,305J6.WAV,six  ,n,,,
+306,306J7.WAV,seven,n,,,
+307,307J8.WAV,eight ,n,,,
+308,308J9.WAV,nine,n,,,
+420,420NINE.WAV,nineteen,n,,,
+421,421NINE.WAV,ninety,n,,,
+584,584SEVE.WAV,seventeen,n,,,
+585,585SEVE.WAV,seventy,n,,,
+596,596SIXT.WAV,sixteen,n,,,
+597,597SIXT.WAV,sixty,n,,,
+641,641TEN.WAV,Ten,n,,,
+643,643THIR.WAV,thirteen,n,,,
+644,644THIR.WAV,thirty,n,,,
+677,677TWEL.WAV,twelve  ,n,,,
+678,678TWEN.WAV,twenty,n,,,
+282,282IN.WAV,In,u,g,,
+401,401MPH.WAV,miles per hour,u,g,,
+116,116BOOM.WAV,Warning. Boomer is preparing to throw,u,,,
+445,445OKAY.WAV,okay,u,,,
+454,454OUT.WAV,out,u,,,
+482,482PFEE.WAV,Press feed button on remote to continue,u,,,
+500,500POIN.WAV,point,u,,,
+526,526REPA.WAV,Remote pause,u,,,
+528,528RESU.WAV,resume,u,,,
+660,660TOOS.WAV,Too slow,u,,,
+668,668TOTA.WAV,total score,u,,,
+775,775atLevel.WAV,,u,,,
+213,213EXIT.WAV,exit,x,,,
+163,163CWHL.WAV,calibrate wheel motors,,,?,
+269,269HERE.WAV,Whoop! There it is!,,g,d,
+73,073APPL.WAV,approach line,,,d,
+74,074APPR.WAV,approach,,,d,
+77,077ATTA.WAV,attack!,,,d,
+92,092BACK.WAV,backhand only,,,d,
+95,095BASE.WAV,please start at the baseline,,,d,
+155,155CROS.WAV,Cross,,,d,
+158,158CRUS.WAV,Crush!,,,d,
+167,167DCRO.WAV,Deep cross,,,d,
+190,190DRVV.WAV,drive volley,,,d,
+214,214EXIT.WAV,exit drill,,,d,
+234,234FORE.WAV,forehand only,,,d,
+248,248GNDS.WAV,groundstrokes,,,d,
+257,257GREA.WAV,Great,,,d,
+315,315KILL.WAV,Kill!,,,d,
+316,316KPDE.WAV,Keep it deep.,,,d,
+339,339LINE.WAV,Line,,,d,
+432,432NOTB,Not bad,,,d,
+457,457OVER.WAV,overhead  ,,,d,
+480,480PERF.WAV,Perfect,u,,,
+483,483PLAY.WAV,player one,,,d,
+486,486PLAY.WAV,player two  ,,,d,
+499,499POAC.WAV,Poach,,,d,
+539,539RUMB.WAV,Let’s get ready to rumble!,,,d,
+565,565SERD.WAV,Serve deuce court out wide,,,d,
+657,657TOOD.WAV,Too deep,,,d,
+659,659TOOS.WAV,Too short,,,d,
+691,691VGOO.WAV,Very good,,,d,
+696,696VOLL.WAV,Volley,,,d,
+698,698VSCR.WAV,volley short cross,,,d,
+730,730WAV1.WAV,Please start inside the service line,,,d,
+773,773avgSpeed.WAV,Average speed is,,,d,
+59,059ACE.WAV,Ace,,g,,
+60,060ADBO.WAV,Advantage Boomer,,g,,
+111,111BOOM.WAV,Boomer serving to the ad court,,g,,
+114,114BOOM.WAV,Boomer serving to the deuce court,,g,,
+118,118BOOM.WAV,"Boomer, unforced error",,g,,
+119,119BOOM.WAV,Boomer wins!,,g,,
+122,122BPOI.WAV,boomer’s point,,g,,
+125,125BSER.WAV,Boomer’s serve,,g,,
+169,169DEEP.WAV,Deep  ,,g,,
+173,173DEUC.WAV,deuce  ,,g,,
+174,174DFAU.WAV,double fault,,g,,
+189,189DRUM.WAV,“drum roll”,,g,,
+199,199EASI.WAV,easier,,g,,
+215,215EXIT.WAV,exit game,,g,,
+243,243GA.WAV,Game,,g,,
+244,244GAME.WAV,boomer’s game,,g,,
+245,245GAME.WAV,your game,,g,,
+251,251GOOD.WAV,good,,g,,
+264,264HARD.WAV,harder,,g,,
+268,268HERE.WAV,Here are two balls to serve,,g,,
+270,270HERE.WAV,Here is one ball to serve,,g,,
+418,418NGRI.WAV,nice grind!,,g,,
+560,560SECS.WAV,Second serve,,g,,
+570,570SERV.WAV,Service,,g,,
+576,576SETB.WAV,Set to Boomer,,g,,
+583,583SETY.WAV,Your set,,g,,
+606,606SPIN.WAV,spinning for serve,,g,,
+646,646THRS.WAV,three shot winner,,g,,
+648,648TIE.WAV,twelve point tiebreaker,,g,,
+653,653TOAD.WAV,your serve to the ad court,,g,,
+654,654TODE.WAV,your serve to the deuce court,,g,,
+680,680TWOS.WAV,two shot winner,,g,,
+742,742WEAK.WAV,weak shot,,g,,
+753,753WIDE.WAV,wide,,g,,
+758,758WNET.WAV,net,,g,,
+761,761WRON.WAV,wrong court,,g,,
+768,768YOUR.WAV,Your ad.,,g,,
+769,769YOUR.WAV,you win,,g,,
+770,770YPOI.WAV,your point,,g,,
+771,771YSER.WAV,your serve,,g,,
+774,774scoreIs.WAV,score is ,,g,,
+775,775savingLogs.WAV,saving logs,u,,,
+776,776atLevel.WAV,at level,,g,,
+777,777love.WAV,love,,g,,
+778,778all.WAV,all,,g,,
+779,779set.WAV,set,,g,,
+779,780softwareBug.WAV,software bug,u,,,
