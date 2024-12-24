@@ -15,7 +15,7 @@ The Amazon Polly service requires an Amazon account with its associated ~/.aws/c
     - the file name should not have spaces; use underscore
 - git commit the edited file(s)
 - git push (sync in VS code) to push the committed changes to the remote repository (github)
-- in the VScode terminal window type 'update_mp3s.py'
+- in the VScode terminal window type './update_mp3s.py'
   - it is important to run this within the VSCode terminal so that the environment variables are set correctly.
   - this script generates the MP3 files
   - and puts the generated files in the repos/audio repository, commits them, and pushes them to github
