@@ -32,7 +32,7 @@ if __name__ == "__main__":
          if use_boomer_wav_csv.lower() == 'y':
             phrases_file = "demo_announcements.csv"
          else:
-            printf("Quiting because a file was not selected.")
+            print("Quiting because a file was not selected.")
             sys.exit(1)
    elif Path(args.input).is_file():
       phrases_file = args.input
