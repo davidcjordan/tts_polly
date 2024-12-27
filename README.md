@@ -13,6 +13,9 @@ The Amazon Polly service requires an Amazon account with its associated ~/.aws/c
     - there are a lot of gaps in the boomer_wav_files, since there are fewer than 200 announcements
     - currently the number is used as the first 3 digits of the file name
     - the file name should not have spaces; use underscore
+- a pause can be added in the announcement by adding ```<break/>``` between words
+  - a longer pause can be added using ```<break time="300ms"/> or <break strength="strong"/>```
+  - be careful on the syntax (follow the above example exactly) or AMZ Polly will return: ```Invalid SSML request```
 - git commit the edited file(s)
 - git push (sync in VS code) to push the committed changes to the remote repository (github)
 - in the VScode terminal window type './update_mp3s.py'
@@ -28,6 +31,7 @@ The Amazon Polly service requires an Amazon account with its associated ~/.aws/c
 - Stephen was selected as the best sounding voice - casual and clear.
 - the speech speed was set to slow to make it easier to understand.  very slow was too slow.
 - The output frequency of 22050 was selected in order to make 22050 WAV files.  This frequency was required to make the ALSA software on linux operate correctly.
+- Polly supports additional SSML (Speech Synthesis Markup Language) tags (more than just break for pauses).  Refer to [AWS Supported SSML tags](https://docs.aws.amazon.com/polly/latest/dg/supportedtags.html)
 
 ## Cloning the repository
 When cloning this repository in order to generate new mp3 files, a new virtual environment (venv) must be created and initialized as follows.  This is to install the AWS 'boto' python facility.
