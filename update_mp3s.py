@@ -17,8 +17,18 @@ import subprocess
 from make_mp3 import make_mp3_file
 import os
 import sys
+import argparse
+
 
 if __name__ == "__main__":
+
+    argParser = argparse.ArgumentParser(description="Make MP3's from changed lines in committed CSV files")
+    # normally the audio repo is committed and pushed; the following double negative is used for testing.
+    argParser.add_argument('-n', '--no_audio_commit', action='store_true')
+
+    args = argParser.parse_args()
+    audio_commit = not(args.no_audio_commit)
+    # print(f'\n\targs.no_audio_commit= {args.no_audio_commit} -> audio_commit= {audio_commit} ')
 
     git_history_depth= -1
     # get list of changes from the last commit
@@ -78,17 +88,18 @@ if __name__ == "__main__":
                 else:
                     print(f"unexpected line '{line}' in '{updated_filename}'")
     
-    # add and commit new mp3 files in ~/repos/audio
-    os.chdir(audio_repo_location)
-    # git push defaults to git push origin main, where origin is the remote repo on github and the branch is main
-    git_cmd_list = ['git add --all','git commit -m "added new MP3s"', 'git push']
-    for git_command in git_cmd_list:
-        print(f"Executing: '{git_command}'")
-        process = subprocess.Popen(git_command,shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        stdout, stderr = process.communicate()
-        if process.returncode == 0:
-            git_log = stdout.decode().splitlines()
-            # print(git_log)
-        else:
-            print(f"Error: {stderr.decode()} on git command: '{git_command}' ... so exiting!")
-            sys.exit(1)
+    if audio_commit:
+        # add and commit new mp3 files in ~/repos/audio
+        os.chdir(audio_repo_location)
+        # git push defaults to git push origin main, where origin is the remote repo on github and the branch is main
+        git_cmd_list = ['git add --all','git commit -m "added new MP3s"', 'git push']
+        for git_command in git_cmd_list:
+            print(f"Executing: '{git_command}'")
+            process = subprocess.Popen(git_command,shell=True,stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            stdout, stderr = process.communicate()
+            if process.returncode == 0:
+                git_log = stdout.decode().splitlines()
+                # print(git_log)
+            else:
+                print(f"Error: {stderr.decode()} on git command: '{git_command}' ... so exiting!")
+                sys.exit(1)
