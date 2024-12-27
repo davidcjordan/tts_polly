@@ -48,9 +48,13 @@ if __name__ == "__main__":
                 print(f'Skipping file: {updated_filename}')
         else:
             if process_csv_lines:
-                fields = line.split(',')
+                fields = [x.strip() for x in line.split(',')]
                 # print(f"{fields[1]} {fields[2]}")
-                if "wav" not in fields[1].lower():
+                if len(fields) < 3:
+                    if len(fields) > 1 or len(line) > 1:
+                        print(f"skipping line '{line}' in '{updated_filename}' since not formatted correctly")
+                    # else do nothing with blank lines
+                elif "wav" not in fields[1].lower():
                     # don't print if diff is in  heading row
                     if "number" not in fields[0].lower():
                         print(f"skipping line '{line}' in '{updated_filename}' since it's missing the WAV extension")
