@@ -8,7 +8,7 @@ number,file name,words
 807,807Easy_net_intro.WAV, This is an easy version of my most popular net drill. This drill tests your ability to move back to hit an overhead and move up to hit a volley. The first ball is a lob and your overhead is scored based mostly on speed and depth. The next two balls are random passing shots and the volleys are scored mostly on width and speed. Then this three ball pattern of lob and two passing shots is repeated twice. At the end I will announce your score.
 808,808Hard_net_intro.WAV, This is a harder version of the net drill. It is scored the same as the previous drill but the balls are at a level above Boomer’s selected level.
 809,809Beep_intro.WAV,This is a beep drill used to test your footspeed and consistency. The drill starts with a ball to the deuce court and then alternates to the ad court. The interval between the balls is reduced until you miss. The target is anywhere in the singles court but you get a higher score if you hit harder deeper or wider without missing.
-810,810Play_game_intro.WAV,Boomer will go back to the main menu once this workout is over. I invite you to play a game against me by pressing the game button on the touchscreen. I show a game option screen where you can set my level anywhere between two point zero and seven point zero. You can also press the game help button and I will explain how to play a game against me. Once you are ready to play please walk to the other side and press the feed button on your Boomer remote to start the game. Enjoy!
+810,810Play_game_intro.WAV,Boomer will go back to the main menu once this workout is over. I invite you to play a game against me by pressing the game button on the touchscreen.
 811,811Mini_tennis_shot.WAV,This is a mini tennis shot down the middle suitable for warmup or total beginners.
 812,812Chip_intermediate_shot.WAV,This is an intermediate level slice suitable for a game or drill.
 813,813Topspin_pro_shot.WAV,Please move way to the right. This is a pro level topspin drive wide to the deuce court suitable for a game or pro level drilling. Maybe I should go pro.
@@ -43,7 +43,7 @@ number,file name,words
 842,842Aim_for_corner.WAV,Aim for the corners. Just like you would if I were a human opponent.
 843,843Hard_ground_short_intro.WAV,Please move five feet behind the baseline. This is the same random groundstroke drill at a higher level. Expect my shots to come faster <break\> deeper <break\>  and wider with more spin.
 844,844My_balls_faster.WAV,My shots will be faster and deeper.
-845,845Net_intro.WAV,This is a short version of my net drill. Try to put each ball away.demo_announcements.csv
+845,845Net_intro.WAV,This is a shortened version of my best net drill. Try to put each ball away.
 846,846Net_intro_one.WAV,I throw only lobs and passings shots.
 847,847Net_intro_two.WAV,Stay low and move back quickly for the lobs.
 848,848Net_intro_three.WAV,Move forward to take the volleys as high as possible.
@@ -90,7 +90,7 @@ number,file name,words
 889,889This_drill_will_test_your_overhead.WAV,This drill will rate your overhead.
 890,890This_drill_will_rate_your_transition.WAV,This drill will rate your transition to net skills.
 891,891This_drill_will_test_your_footspeed.WAV,This drill will test your footspeed as well as your cardio and consistency.
-894,894Transition_drill_short_intro.WAV,This is a 6 ball transition drill where you approach on the third ball and finish at the net with two volleys and an overhead. I will give you a target for each ball as it is thrown.
+894,894Transition_drill_short_intro.WAV,This is a 6 ball transition drill where you approach on the third ball and finish at the net with two volleys and an overhead. Each ball has a target. The first two balls must be hit cross court deep. The third ball must be hit down the line deep. Follow this ball to net and volley the next two balls cross court short. The last ball is an overhead which can land anywhere inside the singles court.
 895,895I_can_ask_players_to_pickup_balls.WAV,I can ask players to pick up five balls before they get back in line.
 896,896This_drill_can_run_continuously.WAV,That way my hopper stays filled with balls so the drill can run continuously.
 897,897Very_efficient.WAV,This lets the students get a ton of practice in a short amount of time.
