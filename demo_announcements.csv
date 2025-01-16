@@ -9,7 +9,7 @@ number,file name,words
 808,808Hard_net_intro.WAV, This is a harder version of the net drill. It is scored the same as the previous drill but the balls are at a level above Boomer’s selected level.
 809,809Beep_intro.WAV,This is a beep drill used to test your footspeed and consistency. The drill starts with a ball to the deuce court and then alternates to the ad court. The interval between the balls is reduced until you miss. The target is anywhere in the singles court but you get a higher score if you hit harder deeper or wider without missing.
 810,810Play_game_intro.WAV,Boomer will go back to the main menu once this workout is over. I invite you to play a game against me by pressing the game button on the touchscreen.
-811,811Mini_tennis_shot.WAV,This is a mini tennis shot down the middle suitable for warmup or total beginners.
+811,811Mini_tennis_shot.WAV,Please stand just inside the service line. <break/> This is a mini tennis shot down the middle suitable for warmup or total beginners. 
 812,812Chip_intermediate_shot.WAV,This is an intermediate level slice suitable for a game or drill.
 813,813Topspin_pro_shot.WAV,Please move way to the right. This is a pro level topspin drive wide to the deuce court suitable for a game or pro level drilling. Maybe I should go pro.
 814,814Passing_pro_shot.WAV,This is a pro level passing shot suitable for a game when the player comes to the net.
@@ -50,7 +50,7 @@ number,file name,words
 849,849Suicide_intro_short.WAV,Here is my best transition drill.
 850,850Workout_one.WAV,My level can be set anywhere from two point zero to seven point zero.
 851,851Workout_two.WAV, In drill mode I stay at my selected level but in game mode I will change my level up or down based on how well you play.
-852,852Gonna_throw.WAV,I am going to throw you a few examples. Feel free to hit them back. <break/> Please stand on the service line.
+852,852Gonna_throw.WAV,I am going to throw you a few examples. Feel free to hit them back.
 853,853Or_not.WAV,Or let them fly by because I am not watching yet.
 854,854Do_not_care.WAV,I don't care if you are right handed or left handed.
 855,855I_only_care.WAV,I only care about how good your deuce court groundstroke is.
