@@ -19,7 +19,7 @@ number,file name,words
 818,818Mini_true_shot.WAV,This is a true mini tennis ball where I must be placed on the service line instead of the baseline. Since I'm probably on the baseline this shot should bounce before the net. If I were placed on the service line this shot would be perfect for little kids or a total beginner.
 819,819Random_volley.WAV,Please move just inside the service line. This is a short version of my most popular random volley drill. Try to punch each volley deep to a corner.
 820,820Hard_random_volley.WAV,This is a harder version of the random volley drill.
-821,821Random_overhead.WAV,Please move just inside the service line. Here is a short easy version of a random overhead drill. Practice moving back quickly to get behind the ball so you can get your weight into the smash. Close on the net immediately the overhead.
+821,821Random_overhead.WAV,Please move just inside the service line. This is a short easy version of a random overhead drill. Practice moving back quickly to get behind the ball so you can get your weight into the smash. Close on the net immediately after the overhead.
 822,822Hard_random_overhead.WAV,This is a harder version of the random overhead drill.
 823,823Two_line_volley_intro.WAV,The next drill feeds passing shots for two players to practice volleys. Both players begin just inside the service line on the deuce and ad courts. The goal is to move forward diagonally to take the ball as early as possible and hit a volley deep to either corner. This drill is not scored.
 824,824Boomer_short_intro.WAV,My name is Boomer and I'm the world's most advanced tennis robot. Like most modern high end ball machines I can throw a ball to any position of the court with any desired speed and spin.
@@ -43,7 +43,7 @@ number,file name,words
 842,842Aim_for_corner.WAV,Aim for the corners. Just like you would if I were a human opponent.
 843,843Hard_ground_short_intro.WAV,Please move five feet behind the baseline. This is the same random groundstroke drill at a higher level. Expect my shots to come faster <break\> deeper <break\>  and wider with more spin.
 844,844My_balls_faster.WAV,My shots will be faster and deeper.
-845,845Net_intro.WAV,Please start just inside the service line. This is a short version of my best net drill. Start just inside the service line. Focus on moving back quickly for the lobs and forward quickly for the volleys. Try to put each ball away.
+845,845Net_intro.WAV,Please start just inside the service line. This is a short version of my best net drill. Focus on moving back quickly for the lobs and moving forward quickly for the volleys. Try to put each ball away.
 846,846Net_intro_one.WAV,I throw only lobs and passings shots.
 847,847Net_intro_two.WAV,Stay low and move back quickly for the lobs.
 848,848Net_intro_three.WAV,Move forward to take the volleys as high as possible.
