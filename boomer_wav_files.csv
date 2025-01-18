@@ -1,4 +1,7 @@
 number,file name,words,utils,game,drill,used
+001,001GoodElevMin.WAV,Elevator min is within range. Saving elevator elevator min.,c,,,
+002,002TooHighElevMin.WAV,Elevator min is too high. Recalibrate the elevator pot.,c,,,
+003,003TooLowElevMin.WAV,Elevator min is too low. Recalibrate the elevator pot.,c,,,
 159,159CSTU.WAV,carousel stuck,c,,,
 279,279IHNO.WAV,I have no balls!,c,,,
 497,497PLSB.WAV,please feed me some balls,c,,,
