@@ -2,7 +2,7 @@ number,file name,words,utils,game,drill,used
 001,001GoodElevMin.WAV,Elevator min is within range. Saving elevator elevator min.,c,,,
 002,002TooHighElevMin.WAV,Elevator min is too high. Recalibrate the elevator pot.,c,,,
 003,003TooLowElevMin.WAV,Elevator min is too low. Recalibrate the elevator pot.,c,,,
-004,004CalibRotary.WAV,Calibrate rotary,c,,,
+004,004CalibrateRotary.WAV,Calibrate rotary,c,,,
 005,005CalibrateServe.WAV,Calibrate serve,c,,,
 006,006CalibrateDrop.WAV,Calibrate drop shot,c,,,
 007,007CalibrateFlat.WAV,Calibrate flat drives,c,,,
