@@ -47,7 +47,7 @@ number,file name,words,utils,game,drill,used
 401,401MPH.WAV,miles per hour,u,g,,
 116,116BOOM.WAV,Warning. Boomer is preparing to throw,u,,,
 445,445OKAY.WAV,okay,u,,,
-446,446NOCAMERA.WAV,No cameras. <break time="1000ms"/> Cameras off,u,,,
+446,446NOCAMERA.WAV,No cameras. <break time="900ms"/> Cameras off,u,,,
 454,454OUT.WAV,out,u,,,
 482,482PFEE.WAV,Press feed button on Boomer remote to continue,u,,,
 500,500POIN.WAV,point,u,,,
