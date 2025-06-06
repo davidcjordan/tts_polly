@@ -52,6 +52,7 @@ number,file name,words,utils,game,drill,used
 446,446NOCAMERA.WAV,No cameras. <break time="100ms"/> Cameras off,u,,,
 454,454OUT.WAV,out,u,,,
 457,457TEST.WAV,Testing sound file,u,,,
+481,481Press_Help.WAV,Press help button to hear how to play a game,g,,,
 482,482PFEE.WAV,Press feed button on Boomer remote or press play button on touchscreen to continue,u,,,
 500,500POIN.WAV,point,u,,,
 526,526REPA.WAV,Remote pause,u,,,
