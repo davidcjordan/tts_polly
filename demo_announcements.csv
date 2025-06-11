@@ -90,7 +90,7 @@ number,file name,words
 889,889This_drill_will_test_your_overhead.WAV,This drill will rate your smash.
 890,890This_drill_will_rate_your_transition.WAV,This drill will rate your transition to net skills.
 891,891This_drill_will_test_your_footspeed.WAV,This drill will test your footspeed as well as your cardio and consistency.
-892,892Ground_groover_intro.WAV,This drill is called deep cross <Pause> deep line. <pause> Boomer throws two balls to the deuce court and two to the ad court. <Pause> The goal for the first ball is deep cross. <Pause> The goal for the second ball is deep line.
+892,892Ground_groover_intro.WAV,This drill is called deep cross <break/> deep line. <break/> Boomer throws two balls to the deuce court and two to the ad court. <break/> The goal for the first ball is deep cross. <break/> The goal for the second ball is deep line.
 893,893Four_corner_intro.WAV,Please start in the deuce court at the baseline. This drill is called 4 corner. Boomer will throw four balls across the baseline. Take all balls with your forehand. The target alternates between deep deuce and deep ad.
 894,894Transition_drill_short_intro.WAV,Please start at the baseline. <break/> This is a 6 ball transition drill where you approach after the third ball and finish at the net with two volleys and a smash. Each ball has a target. The target for the first two balls is cross court deep. The target for the third ball is deep down the line. Follow this ball to net and volley the next two balls short cross court. The last ball is a lob to be smashed and the target is anywhere in the singles court.
 895,895I_can_ask_players_to_pickup_balls.WAV,I can ask players to pick up five balls before they get back in line.
@@ -113,8 +113,8 @@ number,file name,words
 912,912I_know_it_is_intimidating.WAV,I know it is intimidating to be judged by tennis robot. But if you are up for trying a few drills I can show you how to perfect any stroke while measuring your improvement.
 913,913Please_grab_your.WAV,Please grab your racket and the Boomer beeper and walk to the other side.
 914,914Random_ground_intro.WAV,Please start at the baseline. This drill throws 20 random balls at Boomer's level. Each ball you hit is scored on speed depth and width.
-915,915Four_corner_v_tactic.WAV,Please start at the baseline. This drill is called 4 corner V tactic. Boomer will throw 4 balls across the baseline. Your targets are deep deuce <pause> deep ad <pause> short deuce <pause> and short ad.
-916,916Long_and_short_intro.WAV,Please start at the baseline. This drill is called long and short. <pause> The goal is to improve your footwork moving up and diagonally back to prepare for each ball. Boomer feeds a deep hard ball to the deuce court. <pause> It repeats this pattern to the ad court. Your goal is to hit all balls deep to a corner.
+915,915Four_corner_v_tactic.WAV,Please start at the baseline. This drill is called 4 corner V tactic. Boomer will throw 4 balls across the baseline. Your targets are deep deuce <break/> deep ad <break/> short deuce <break/> and short ad.
+916,916Long_and_short_intro.WAV,Please start at the baseline. This drill is called long and short. <break/> The goal is to improve your footwork moving up and diagonally back to prepare for each ball. Boomer feeds a deep hard ball to the deuce court. <break/> It repeats this pattern to the ad court. Your goal is to hit all balls deep to a corner.
 917,917Hopman_ground_intro.WAV,Please start at the baseline. This drill was used by Harry Hopman to get his Australian Davis Cup team into phenomenal tennis shape. I will throw 30 random balls at a high frequency. The goal is to try to hit each ball aggressively and go for the lines.
 918,918College_combine_ground.WAV,Please start at the baseline. This drill was used in a college combine to test potential division one college tennis players.
 919,919Random_topspin_intro.WAV,Please start at the baseline. This drill throws 30 random topspin balls.
