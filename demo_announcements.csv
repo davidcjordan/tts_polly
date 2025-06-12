@@ -128,5 +128,17 @@ number,file name,words
 927,927Ad_groove.WAV,Please start at the baseline. This drill throws all the balls to the ad court.
 928,928Deuce_groove.WAV,Please start at the baseline. This drill throws all the balls to the deuce court.
 929,929Injured_player.WAV,Please start at the baseline. This drills throws 30 balls close to the center. The balls are thrown to limit player's movement.
-930,930Hopman_ground_easy.WAV,Please start at the baseline. This is an easy version of the Hopman groundstroke drill.
+930,930Hopman_ground_easy.WAV,Please start at the baseline. This is an easy version of the Hopman groundstroke drill. The balls are the same but you have more time between balls.
+931,931Random_net_easy.WAV,Please start inside the service line. This drill starts with a lob and then 2 random passing shots. This pattern repeats for 15 balls.
+932,932Random_net_hard.WAV,Please start inside the service line. This drill start with a lob and then throws 2 random passing shots.
+933,933Net_groover_easy.WAV,Please start inside the service line. THis drills throws a lob then two passing shots.
+934,934Net_groover_hard.WAV,Please start inside the service line. This drills throws a lob then two passing shots.
+935,935Hopman_net_easy.WAV,Please start inside the service line. This is an easy version of then Hopman net drill.
+936,936Hopman_net_medium.WAV,Please start inside the service line. This is a medium version of the Hopman net drill.
+937,937Hopman_net_hard.WAV,Please start inside the service line. This is the Hopman net drill.
+938,938College_combine_net_easy.WAV,Please start inside the service line. This is an easy version of the college combine net test.
+939,939College_combine_net_medium.WAV,Please start inside the service line. THis is a medium version of the college combine net test.
+940,940College_combine_net_hard.WAV,Please start inside the service line. THis is the college combine net test.
+
+
 
