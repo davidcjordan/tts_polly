@@ -121,3 +121,12 @@ number,file name,words
 920,920Random_loop_intro.WAV,Please start at the baseline. This drill throws 30 random heavy topspin drives.
 921,921Random_chip_intro.WAV,Please start at the baseline. This drill throws 30 random slices.
 922,922Random_flat_intro.WAV,Please start at the baseline. This drill throws 30 random flat drives.
+923,923Eight_deuce.WAV,Please start at the baseline. This drill throws 8 balls to the deuce at Boomer's level.
+924,924Eight_ad.WAV,Please start at the baseline. This drill throws 8 balls to the ad court at Boomer's level.
+925,925Passing_ad.WAV,Please start at the baseline. This drill throws 3 balls. Hit the first two deep cross court and the last ball down the line for a passing shot.
+926,926Passing_deuce.WAV,Please start at the baseline. This drill throws 3 balls. Hit the first two deep cross court and the last ball down the line for a passing shot.
+927,927Ad_groove.WAV,Please start at the baseline. This drill throws all the balls to the ad court.
+928,928Deuce_groove.WAV,Please start at the baseline. This drill throws all the balls to the deuce court.
+929,929Injured_player.WAV,Please start at the baseline. This drills throws 15 balls to the deuce court followed by 15 balls to the ad court. All the balls are close to the center to limit player's movement.
+930,930Hopman_easy.WAV,Please start at the baseline. This is an easy version of the Hopman groundstroke drill.
+931,931Hopman_medium.WAV,Please start at the baseline. This is a medium version of the Hopman groundstroke drills.
