@@ -154,7 +154,11 @@ number,file name,words
 953,953Twelve_serve.WAV,Please start at the baseline. In this drill you will get 12 opportunities to start a point with your serve. Just like a game <break/> you get 2 chances to get a serve in the box. Boomer will throw you 1 ball to serve.<break/> When boomer says service <break/> serve to the appropriate court. If you miss your first serve <break/> you get a second serve and Boomer will throw you another ball. Booer will repeat the sequence on the ad court.
 954,954Sixteen_serve.WAV,Please start at the baseline. In this drill you will get 16 opportunities to start a point with your serve. Just like a game <break/> you get 2 chances to get a serve in the box. boomer will throw you 1 ball to serve <break/> When boomer says service <break/> serve to the appropriate court. if you miss your first serve <break/> you get a second serve and Boomer will throw you another ball. Boomer will repeat the sequence on the ad court.
 955,955Twenty_serve.WAV,Please start at the baseline. In this drill you will get 20 opportunities to start a point with your serve.  Just like a game <break/> you get 2 chances to get a serve in the box. Boomer will throw you 1 ball to serve <break/> when boomer says serveice <break/> serve to the appropriate court. If you miss your first serve <break/> you get a second serve and Boomer will throw you another ball. Boomer will repeat this sequence to the ad court.
-956,956Easy_mini.WAV,Please start inside the service line. Boomer will throw 5 balls to the deuce court and 5 to the ad court.
-957,957Hard_mini.WAV,Please start inside the service line. Boomer will throw 10 balls alternating between deuce court and ad court.
+956,956Easy_mini.WAV,Please start just inside the service line. Boomer will throw 5 balls to the deuce court and 5 to the ad court. Try to take the ball at the highest point after the bounce.
+957,957Hard_mini.WAV,Please start at the service line. Boomer will throw 10 balls alternating between deuce court and ad court. Try to take the ball at the highest point after the bounce.
+958,958Mini_volley.WAV,Please start close to the net. Boomer will throw 10 balls alternating between deuce court and ad court. Take every ball out of the air.
+959,959Mini_over.WAV,Please start close to the net. Boomer will throw 10 balls right down the middle. Try to smash each ball out of the air.
+960,060Mini_net.WAV,Please start close to the net. Boomer will throw random balls. Try to take all the balls out of the air.
+
 
 
