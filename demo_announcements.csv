@@ -115,7 +115,7 @@ number,file name,words
 914,914Random_ground_intro.WAV,Please start at the baseline. I will throw 20 random balls at Boomer's level. Each ball you hit is scored on speed depth and width.
 915,915Four_corner_v_tactic.WAV,Please start at the baseline. This drill is called 4 corner V tactic. Boomer will throw a heavy topspin to the deuce court <break/> a drive to the ad court <break/> a drop shot to the ad court <break/> and a passing shot to the deuce court. Your targets are deep deuce <break/> deep ad <break/> short ad <break/> and short deuce.
 916,916Long_and_short_intro.WAV,Please start at the baseline. This drill is called long and short. <break/> The goal is to improve your footwork moving up and diagonally back to prepare for each ball. Boomer feeds a deep hard ball to the deuce court. <break/> Then it feeds a shorter easy ball to the deuce court. It repeats this 2 ball pattern to the ad court. Your target is to hit all balls deep to a corner.
-917,917Hopman_ground_intro.WAV,Please start at the baseline. This drill was used by Harry Hopman to get his Australian Davis Cup team into phenomenal tennis shape. I will throw 30 random balls at a high frequency. Hit each ball aggressively and go for the lines.
+917,917Hopman_ground_intro.WAV,Please start at the baseline. This drill was used by Harry Hopman to get his Australian Davis Cup team into phenomenal tennis shape. I will throw 30 random balls at a fast frequency. Hit each ball aggressively and go for the lines.
 918,918College_combine_ground.WAV,Please start at the baseline. This drill was used in a college combine to test potential division one college players.
 919,919Random_topspin_intro.WAV,Please start at the baseline. This drill throws 30 random topspin drives.
 920,920Random_loop_intro.WAV,Please start at the baseline. This drill throws 30 random heavy topspin drives.
@@ -139,11 +139,14 @@ number,file name,words
 938,938College_combine_net_easy.WAV,Please start inside the service line. This is an easy version of the college combine net test.
 939,939College_combine_net_medium.WAV,Please start inside the service line. THis is a medium version of the college combine net test.
 940,940College_combine_net_hard.WAV,Please start inside the service line. THis is the college combine net test.
-941,941Random_volley_easy.WAV,Please start inside the service line. This is the easy random volley drill. Boomer throws 12 random passing shots at a low frequency for you to practice your volleys.
-942,942Random_volley_hard.WAV,Please start inside the service line. This is the hard random volley drill. Boomer throws 12 random passing shots at a high frequency for you to practice your volleys.
+941,941Random_volley_easy.WAV,Please start inside the service line. This is the easy random volley drill. Boomer throws 12 random passing shots at a slow frequency for you to practice your volleys.
+942,942Random_volley_hard.WAV,Please start inside the service line. This is the hard random volley drill. Boomer throws 12 random passing shots at a fast frequency for you to practice your volleys.
 943,943Volley_groover_easy.WAV,Please start inside the service line. This is the easy volley groover. Boomer throws 2 balls to the deuce court <break/> and 2 to the ad court. Boomer repeats this for 24 balls. Aim for the sidelines.
 944,944Volley_groover_hard.WAV,Please start inside the service line. This is the hard volley groover. Boomer throws 2 balls to the deuce court <break/> and 2 to the ad court. Boomer repeats this for 24 balls. Aim for the sidelines.
-945,945Robert_Gibson_volley.WAV,Please start inside the service line. This is the Robert Gibson volley drill. Boomer throws a series of balls right down the middle.
-
-
+945,945Robert_Gibson_volley.WAV,Please start inside the service line. This is the Robert Gibson volley drill. Boomer throws 8 balls right down the middle.
+946,946Easy_random_over.WAV,Please start inside the service line. This drill throws 6 easy random lobs at a slow frequency.
+947,947Hard_random_over.WAV,Please start inside the service line. This drill throws 6 hard random lobs at a fast frequency.
+948,948Overhead_groover.WAV,Please start inside the service line. This drill throws  12 balls right down the middle.
+949,949Right_over.WAV,Please start inside the service line. This drill throws 6 balls for a righty overhead.
+950,950Lefty_over.WAV,Please start inside the service line. This drill throws 6 balls for a lefty overhead.
 
