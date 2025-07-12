@@ -11,6 +11,8 @@ number,file name,words,utils,game,drill,used
 010,010CalibrateLob.WAV,Calibrate lobs,c,,,
 011,011CalibrateTopspin.WAV,Calibrate topspin drives,c,,,
 012,012CalibratePass.WAV,Calibrate passing shots,c,,,
+013,013Please_start_at_baseline.WAV,Please start at the baseline,d,,,
+014,014Please_start_inside_the_service_line.WAV,Please start inside the service line,d,,,
 108,108BIGT.WAV,That's big time!,,g,,
 159,159CSTU.WAV,carousel stuck,c,,,
 279,279IHNO.WAV,I have no balls!,c,,,
